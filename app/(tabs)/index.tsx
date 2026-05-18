@@ -26,7 +26,7 @@ export default function App() {
 
       
       <Text style={styles.greeting}>
-        {name === '' ? 'Hello!' : `Hello, ${name}! 👋`}
+        {name === '' ? 'Hello!' : `Hello, ${name}! 🙏`}
       </Text>
 
       <Text style={styles.message}>{message}</Text>
@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
   input: {
     height: 40,
     borderWidth: 1,
-    borderColor: '#ccc',
+    borderColor: '#1fa0a3',
     paddingHorizontal: 10,
     marginBottom: 12,
     width: '80%',
